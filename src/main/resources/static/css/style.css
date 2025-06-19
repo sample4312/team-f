@@ -1,0 +1,120 @@
+/* 003 */
+.button003 a{
+    background: #eee;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 180px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    text-decoration: none;
+}
+.button003 a:hover {
+    background: #313131;
+    color: #FFF;
+}
+
+/*aないやつ*/
+.button004 {
+    background: #eee;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+
+}
+.button004:hover {
+    background: #313131;
+    color: #FFF;
+}
+
+#workout::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+#rep::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+#weight::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+#hHeight::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+#hWeight::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+.select_box {
+	 /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin: 0;*/
+    /*transform: translate(-50%, -50%);*/
+    width: calc(100% - 2%);
+    text-align: center;
+}
+
+.select_btn {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.select_btn:after {
+    position: absolute;
+    content: '';
+    pointer-events: none;
+}
+
+.select_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 1.4em;
+    transform: translate(50%, -50%) rotate(45deg);
+    width: 6px;
+    height: 6px;
+    border-bottom: 3px solid #90a5a9;;
+    border-right: 3px solid #90a5a9;;
+}
+
+.select_btn select {
+    appearance: none;
+    min-width: 230px;
+    height: 2.8em;
+    padding: .4em 3.6em .4em .8em;
+    border: none;
+    border-radius: 3px;
+    background-color: #e8f5f4;
+    color: #333;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 2px solid #7f9296;
+    outline: 0;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}
